@@ -1122,7 +1122,7 @@ def draw():
             elif d == 30:
                 screen.fill("black")
                 textbox.draw()
-                screen.draw.text("I manage to fall asleep.")
+                screen.draw.text("I manage to fall asleep.", (242, 624)
                 day=3
                 d=1
     elif day ==3:
